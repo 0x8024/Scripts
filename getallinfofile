@@ -1,5 +1,5 @@
 -- Add :GetChildren() end your path
-
+local fil = path:GetChildren()
 --Info File Getter
 print("------------Info Getter------------")
 print("------------Name:")
