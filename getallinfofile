@@ -1,0 +1,28 @@
+-- Add :GetChildren() end your path
+
+--Info File Getter
+print("------------Info Getter------------")
+print("------------Name:")
+for i,v in pairs(fil) do
+    print(v)
+end
+print("------------CFrame:")
+for i,v in pairs(game:GetService("Workspace").Chests:GetChildren()) do
+    print(v.CFrame)
+end
+print("------------Anchored:")
+for i,v in pairs(game:GetService("Workspace").Chests:GetChildren()) do
+    if v.Anchored == true then
+        print("true")
+        else
+            print("false")
+    end
+end
+print("------------Archivable:")
+for i,v in pairs(game:GetService("Workspace").Chests:GetChildren()) do
+    if v.Archivable == true then
+        print("true")
+        else
+            print("false")
+    end
+end
